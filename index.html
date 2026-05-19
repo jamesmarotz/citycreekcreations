@@ -1,164 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />https://jamesmarotz.github.io/citycreekcreations/
-
-  <title>City Creek Creations | Idaho-Made Custom Creations</title>
-  <meta name="description" content="City Creek Creations is an Idaho family business creating custom 3D prints, handmade goods, gourmet chocolates, freeze-dried treats, and small-batch products." />
-
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      background: #20160f;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .site-wrap {
-      max-width: 1600px;
-      margin: 0 auto;
-      background: #20160f;
-      position: relative;
-      box-shadow: 0 0 44px rgba(0,0,0,.35);
-    }
-
-    .homepage-art {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
-
-    .hotspot {
-      position: absolute;
-      display: block;
-      text-indent: -9999px;
-      overflow: hidden;
-      border-radius: 8px;
-    }
-
-    .hotspot:focus {
-      outline: 3px solid #ffffff;
-      outline-offset: 3px;
-    }
-
-    /* Top navigation */
-    .home { left: 47.0%; top: 2.3%; width: 4.8%; height: 2.3%; }
-    .about { left: 53.7%; top: 2.3%; width: 5.8%; height: 2.3%; }
-    .products { left: 60.4%; top: 2.3%; width: 8.6%; height: 2.3%; }
-    .gallery { left: 70.4%; top: 2.3%; width: 7.0%; height: 2.3%; }
-    .contact { left: 78.9%; top: 2.3%; width: 7.2%; height: 2.3%; }
-
-    /* Main buttons */
-    .explore {
-      left: 10.3%;
-      top: 31.6%;
-      width: 18.0%;
-      height: 3.8%;
-    }
-
-    .freeze-dried {
-      left: 4.3%;
-      top: 67.1%;
-      width: 7.2%;
-      height: 3.0%;
-    }
-
-    .printing {
-      left: 36.3%;
-      top: 67.1%;
-      width: 6.8%;
-      height: 3.0%;
-    }
-
-    .gourmet {
-      left: 66.4%;
-      top: 67.1%;
-      width: 7.3%;
-      height: 3.0%;
-    }
-
-    /* Footer links */
-    .instagram-link {
-      left: 45.1%;
-      top: 92.7%;
-      width: 12.0%;
-      height: 1.8%;
-    }
-
-    .email-link {
-      left: 45.1%;
-      top: 94.4%;
-      width: 17.5%;
-      height: 1.8%;
-    }
-
-    .fallback-content {
-      color: #f6efe4;
-      padding: 2rem 1.25rem;
-      text-align: center;
-      display: none;
-    }
-
-    .fallback-content h1 {
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: 2rem;
-      margin-bottom: .5rem;
-    }
-
-    .fallback-content a {
-      color: #d8c79b;
-      font-weight: bold;
-    }
-
-    @media (max-width: 700px) {
-      .site-wrap {
-        box-shadow: none;
-      }
-
-      .hotspot {
-        display: none;
-      }
-
-      .fallback-content {
-        display: block;
-      }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City Creek Creations</title>
+  <meta name="description" content="City Creek Creations is an Idaho family business offering freeze dried goods, gourmet treats, custom 3D printing, and handmade creations.">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <main class="site-wrap">
-    <img
-      class="homepage-art"
-      src="city-creek-homepage.png"
-      alt="City Creek Creations homepage featuring James, Allison, Paige, and Easton, Idaho scenery, freeze dried goods, 3D printing, gourmet treats, and local family creativity."
-    />
 
-    <a class="hotspot home" href="#">Home</a>
-    <a class="hotspot about" href="mailto:info@citycreekcreations.com?subject=About%20City%20Creek%20Creations">About</a>
-    <a class="hotspot products" href="mailto:info@citycreekcreations.com?subject=Product%20Inquiry">Products</a>
-    <a class="hotspot gallery" href="mailto:info@citycreekcreations.com?subject=Gallery%20Inquiry">Gallery</a>
-    <a class="hotspot contact" href="mailto:info@citycreekcreations.com">Contact</a>
+<div class="topbar">
+  Proudly based in Idaho • Inspired by our family, our land, and our community
+</div>
 
-    <a class="hotspot explore" href="mailto:info@citycreekcreations.com?subject=City%20Creek%20Creations%20Inquiry">Explore Our Creations</a>
-    <a class="hotspot freeze-dried" href="mailto:info@citycreekcreations.com?subject=Freeze%20Dried%20Goods%20Inquiry">Shop Freeze Dried Goods</a>
-    <a class="hotspot printing" href="mailto:info@citycreekcreations.com?subject=3D%20Printing%20Quote">Learn More About 3D Printing</a>
-    <a class="hotspot gourmet" href="mailto:info@citycreekcreations.com?subject=Gourmet%20Treats%20Inquiry">Shop Gourmet Treats</a>
-    <a class="hotspot instagram-link" href="https://www.instagram.com/citycreekcreations/" target="_blank" rel="noopener">Instagram</a>
-    <a class="hotspot email-link" href="mailto:info@citycreekcreations.com">Email City Creek Creations</a>
+<nav class="nav">
+  <div class="nav-inner">
 
-    <section class="fallback-content">
-      <h1>City Creek Creations</h1>
-      <p>Custom 3D printing, handmade goods, gourmet chocolates, freeze-dried treats, and Idaho-inspired creations.</p>
-      <p style="margin-top: .75rem;">
-        <a href="mailto:info@citycreekcreations.com">info@citycreekcreations.com</a>
+    <a class="logo-link" href="#">
+      <img src="assets/logo.png" alt="City Creek Creations Logo" class="logo">
+    </a>
+
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+  </div>
+</nav>
+
+<header class="hero">
+
+  <div class="hero-inner">
+
+    <div class="hero-text">
+      <h1>Inspired by Idaho.</h1>
+      <span class="script">Built for Life.</span>
+
+      <p>
+        From the banks of City Creek to the peaks of the Tetons, we create quality products that bring together craftsmanship, creativity, and the Idaho way of life.
       </p>
-    </section>
-  </main>
+
+      <a class="btn" href="#products">
+        Explore Our Creations →
+      </a>
+    </div>
+
+    <div class="family-card">
+      <img src="assets/family.jpg" alt="James, Allison, Paige and Easton">
+      <p>James, Allison, Paige & Easton ♡</p>
+    </div>
+
+  </div>
+
+</header>
+
+<section class="values">
+
+  <div class="values-grid">
+
+    <div class="value">
+      <div class="icon">🏔️</div>
+      <h3>Idaho Inspired</h3>
+      <p>Our designs are inspired by the beauty we live in every day.</p>
+    </div>
+
+    <div class="value">
+      <div class="icon">🛠️</div>
+      <h3>Crafted to Last</h3>
+      <p>Quality materials and attention to detail in everything we make.</p>
+    </div>
+
+    <div class="value">
+      <div class="icon">👨‍👩‍👧‍👦</div>
+      <h3>Family Focused</h3>
+      <p>Built by our family, for yours.</p>
+    </div>
+
+    <div class="value">
+      <div class="icon">🌿</div>
+      <h3>Rooted Locally</h3>
+      <p>Proudly based in Idaho and supporting our community.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="products" id="products">
+
+  <div class="product freeze">
+    <div class="overlay"></div>
+
+    <div class="product-content">
+      <h3>Freeze Dried Goods</h3>
+
+      <p>
+        Delicious, lightweight, and long-lasting treats made with care by Allison's City Creek Creations.
+      </p>
+
+      <a href="mailto:info@citycreekcreations.com?subject=Freeze%20Dried%20Goods">
+        Shop Treats
+      </a>
+    </div>
+  </div>
+
+  <div class="product printing">
+    <div class="overlay"></div>
+
+    <div class="product-content">
+      <h3>3D Printing</h3>
+
+      <p>
+        Precision prints for prototypes, tools, parts, and everyday problem solving.
+      </p>
+
+      <a href="mailto:info@citycreekcreations.com?subject=3D%20Printing">
+        Learn More
+      </a>
+    </div>
+  </div>
+
+  <div class="product gourmet">
+    <div class="overlay"></div>
+
+    <div class="product-content">
+      <h3>Gourmet Treats</h3>
+
+      <p>
+        Indulgent chocolates and fun freeze-dried treats made with care by Allison's City Creek Creations.
+      </p>
+
+      <a href="mailto:info@citycreekcreations.com?subject=Gourmet%20Treats">
+        Shop Treats
+      </a>
+    </div>
+  </div>
+
+</section>
+
+<section class="story" id="about">
+
+  <div class="story-image"></div>
+
+  <div class="story-content">
+
+    <h2>
+      Where the Mountains Meet
+      <span>Community & Creativity ♡</span>
+    </h2>
+
+    <p>
+      We're proud to call Idaho home. Thank you for supporting our small business and being a part of our journey.
+    </p>
+
+  </div>
+
+</section>
+
+<footer class="footer" id="contact">
+
+  <img src="assets/logo.png" alt="City Creek Creations Logo" class="footer-logo">
+
+  <p><strong>City Creek Creations LLC</strong></p>
+
+  <p>
+    Freeze Dried Goods • 3D Printing • Gourmet Treats • Handmade Creations
+  </p>
+
+  <p class="email">
+    <a href="mailto:info@citycreekcreations.com">
+      info@citycreekcreations.com
+    </a>
+  </p>
+
+  <p class="copyright">
+    © 2026 City Creek Creations LLC. All rights reserved.
+  </p>
+
+</footer>
+
 </body>
 </html>
